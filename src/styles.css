@@ -1,0 +1,83 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    background-color: rgb(94, 51, 51);
+  }
+  .calculator {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;  
+    width: 300px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+  
+  }
+  .result {
+    width: 100%;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    
+  }
+  .result-area {
+    padding-top: 45px ;
+    padding-right: 10px;
+    text-align: right;
+    line-height: 30px;
+    border-radius: 5px;
+    font-size: 52px;
+    margin-bottom: 10px;
+  }
+  div {
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    width: 25%;
+    background-color: rgb(101, 101, 101);
+    line-height: 50px;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    color: white;
+    font-weight: bolder;
+  }
+  .sign {
+    background-color: #f08c00;
+    color: white;
+  }
+  .row {
+    width: 50%;
+  }
+  .lightgrey {
+    background-color: rgb(133, 133, 133);
+  }
+  
+  #top-left-area{
+      display: flex;
+      padding: 5px;
+  }
+  
+  p{
+    text-align:right ;
+  }
+  #ac{
+    width: 75%;
+  }
+  #result{
+    width: 97%;
+    height: 100%;
+    background-color: rgb(34, 31, 31);
+    color: white;
+    font-size: 18px;
+  }
+  input{
+    width: 100%;
+    height: 100%;
+  }
+  .ac{
+    background-color: rgb(107, 106, 106);
+  }
