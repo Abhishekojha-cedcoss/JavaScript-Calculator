@@ -16,8 +16,8 @@ function input(n) {
   }
 }
 function calc(o, op, newvalue) {
-  o = parseInt(o);
-  newvalue = parseInt(newvalue);
+  o = Number(o);
+  newvalue = Number(newvalue);
   switch (op) {
     case "+":
       document.getElementById("result").value = o + newvalue;
@@ -35,8 +35,8 @@ function calc(o, op, newvalue) {
 }
 
 function equalto() {
-  oldvalue = parseInt(oldvalue);
-  v = parseInt(v);
+  oldvalue = Number(oldvalue);
+  v = Number(v);
   switch (operatorvalue) {
     case "+":
       document.getElementById("result").value = oldvalue + v;
